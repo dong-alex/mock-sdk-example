@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.00724063.chunk.js",
-    "main.js.map": "/static/js/main.00724063.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.968940bd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.968940bd.js.map",
-    "static/js/2.94d450d8.chunk.js": "/static/js/2.94d450d8.chunk.js",
-    "static/js/2.94d450d8.chunk.js.map": "/static/js/2.94d450d8.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.004975ada39947f99c71ce0f9da6cb39.js": "/precache-manifest.004975ada39947f99c71ce0f9da6cb39.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.94d450d8.chunk.js.LICENSE": "/static/js/2.94d450d8.chunk.js.LICENSE"
+    "main.js": "/amplitude-sdk-ui/static/js/main.00724063.chunk.js",
+    "main.js.map": "/amplitude-sdk-ui/static/js/main.00724063.chunk.js.map",
+    "runtime-main.js": "/amplitude-sdk-ui/static/js/runtime-main.9a722eb9.js",
+    "runtime-main.js.map": "/amplitude-sdk-ui/static/js/runtime-main.9a722eb9.js.map",
+    "static/js/2.b5bb3b70.chunk.js": "/amplitude-sdk-ui/static/js/2.b5bb3b70.chunk.js",
+    "static/js/2.b5bb3b70.chunk.js.map": "/amplitude-sdk-ui/static/js/2.b5bb3b70.chunk.js.map",
+    "index.html": "/amplitude-sdk-ui/index.html",
+    "precache-manifest.476706761f433d10e183e60465c3760e.js": "/amplitude-sdk-ui/precache-manifest.476706761f433d10e183e60465c3760e.js",
+    "service-worker.js": "/amplitude-sdk-ui/service-worker.js",
+    "static/js/2.b5bb3b70.chunk.js.LICENSE": "/amplitude-sdk-ui/static/js/2.b5bb3b70.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.968940bd.js",
-    "static/js/2.94d450d8.chunk.js",
+    "static/js/runtime-main.9a722eb9.js",
+    "static/js/2.b5bb3b70.chunk.js",
     "static/js/main.00724063.chunk.js"
   ]
 }
