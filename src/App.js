@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { withAmplitudeContext } from "mock-amplitude-sdk";
+import LoginUI from "./components/LoginUI";
+import AppBar from "./components/AppBar";
+import EventTable from "./components/EventTable";
 
-function App() {
+const App = props => {
+  const {
+    sessionStarted,
+    handleAPIKeyCreate,
+    handleEndSession,
+    generateAPIKey
+  } = props.context;
+
+  const [key, setKey] = useState("");
+
+  const handleGenerateClick = () => {
+    const newKey = generateAPIKey();
+
+    setKey(newKey);
+  };
+
+  const handleSessionClose = () => {
+    handleEndSession();
+    setKey("");
+  };
+
+  const handleSessionStart = () => {
+    handleAPIKeyCreate(key);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <AppBar />
+      <LoginUI
+        onSessionStart={handleSessionStart}
+        onSessionEnd={handleSessionClose}
+        onGenerateClick={handleGenerateClick}
+        started={sessionStarted}
+        currentKey={key}
+      />
+      <EventTable started={sessionStarted} />
+    </>
   );
-}
+};
 
-export default App;
+export default withAmplitudeContext(App);
