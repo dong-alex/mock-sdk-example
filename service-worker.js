@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/amplitude-sdk-ui/precache-manifest.476706761f433d10e183e60465c3760e.js"
+  "/amplitude-sdk-ui/precache-manifest.97dabaa65407bd73814cf1a84eddb21b.js"
 );
 
 self.addEventListener('message', (event) => {
