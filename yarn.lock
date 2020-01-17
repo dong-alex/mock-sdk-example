@@ -6975,10 +6975,10 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mock-amplitude-sdk@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/mock-amplitude-sdk/-/mock-amplitude-sdk-1.4.0.tgz#ab83b2c6433532a8b6b0e3c6443f661c9252ea00"
-  integrity sha512-VNY9piK7HvhQbs4m/EFO/n9VBrmiyQBEwVi5ulY+aYeBbz8UbEUJzKl8M7ENszYAiy6GNeM6Kr0yXAuS3gRdbw==
+mock-amplitude-sdk@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/mock-amplitude-sdk/-/mock-amplitude-sdk-1.5.0.tgz#9ea61b2535e6f97c5ef19abc504c040cc65009fe"
+  integrity sha512-PcBc5n03ckuSoPHViyceZLHxSdSJVn5FSM9/vAF6wi1lgkMpVGVki/8BEeIGm8eZvv7euadt8QFJJppqToyiGw==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
